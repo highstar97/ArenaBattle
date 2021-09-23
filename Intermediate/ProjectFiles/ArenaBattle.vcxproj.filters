@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaBattle.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5D219B08-A699-4910-A251-7F648DCA9ECD}</UniqueIdentifier>
+      <UniqueIdentifier>{42F32A7C-406C-4212-A726-4989C9A6592E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F0F81C81-BB6F-4296-AEF8-9A0795762F8E}</UniqueIdentifier>
+      <UniqueIdentifier>{D773FF6D-DE9A-498B-922F-AAACDB022E30}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,8 +32,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaBattle">
-      <UniqueIdentifier>{F95E3CDC-27A2-4BE0-9B15-36775619AC66}</UniqueIdentifier>
+      <UniqueIdentifier>{4303D73C-6758-430E-B531-923577ABDE66}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ArenaBattle\ABAnimInstance.cpp">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaBattle\ABAnimInstance.h">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ArenaBattle\ABCharacter.cpp">
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
