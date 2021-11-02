@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E55ED3B3-DF63-40BB-81FF-9932E319C0D7}</ProjectGuid>
+    <ProjectGuid>{B7BE154F-580A-4B2C-8230-3104E0B4B65F}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>ArenaBattle</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

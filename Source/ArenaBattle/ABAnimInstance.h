@@ -4,6 +4,9 @@
 #include "Animation/AnimInstance.h"
 #include "ABAnimInstance.generated.h"
 
+DECLARE_MULTICAST_DELEGATE(FOnAttackHitCheckDelegate);
+DECLARE_MULTICAST_DELEGATE(FOnNextAttackCheckDelegate);
+
 UCLASS()
 class ARENABATTLE_API UABAnimInstance : public UAnimInstance
 {
@@ -14,6 +17,18 @@ public:
 	virtual void NativeUpdateAnimation(float DeltaSeconds) override;
 	
 	void PlayAttackMontage();
+	void JumpToAttackMontageSection(int32 NewSection);
+
+public:
+	FOnAttackHitCheckDelegate OnAttackHitCheck;
+	FOnNextAttackCheckDelegate OnNextAttackCheck;
+
+private:
+	UFUNCTION()
+	void AnimNotify_AttackHitCheck();
+	void AnimNotify_NextAttackCheck();
+
+	FName GetAttackMontageSectionName(int32 Section);
 
 private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
