@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaBattle.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B0A61F39-1B69-40FB-BF2B-A2415F8F9E7C}</UniqueIdentifier>
+      <UniqueIdentifier>{A25251F3-9867-4812-8452-7AF77458363A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{9D7D505B-E415-4F5B-8680-B0BAE2334B13}</UniqueIdentifier>
+      <UniqueIdentifier>{CC5858E6-42D4-4D84-8BB7-59D8EFDA777E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaBattle">
-      <UniqueIdentifier>{0EC9FF2D-1676-4FB5-9366-45FF2797D926}</UniqueIdentifier>
+      <UniqueIdentifier>{85FE1599-98C7-48E1-A09A-961F90B5ACFB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ArenaBattle\ABAnimInstance.cpp">
       <Filter>Source\ArenaBattle</Filter>
@@ -52,6 +52,12 @@
     <ClInclude Include="..\..\Source\ArenaBattle\ABGameMode.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ArenaBattle\ABItemBox.cpp">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaBattle\ABItemBox.h">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ArenaBattle\ABPawn.cpp">
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
@@ -62,6 +68,12 @@
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ArenaBattle\ABPlayerController.h">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArenaBattle\ABWeapon.cpp">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaBattle\ABWeapon.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
     <None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs">
