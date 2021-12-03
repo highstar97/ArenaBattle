@@ -1,5 +1,6 @@
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABAIController.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABAnimInstance.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABCharacterStatComponent.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABCharacterWidget.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABGameInstance.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABGameMode.h
@@ -7,8 +8,11 @@ C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABItemBox.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABPawn.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABPlayerController.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABWeapon.h
-C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABCharacter.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ArenaBattleCharacter.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\BTDecorator_IsInAttackRange.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\BTService_Detect.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\BTTask_Attack.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\BTTask_FindPatrolPos.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ArenaBattleGameMode.h
-C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABCharacterStatComponent.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABCharacter.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\BTTask_TurnToTarget.h
