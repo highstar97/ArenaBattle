@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/ArenaBattleCharacter.h"
+#include "ArenaBattle/Public/ArenaBattleCharacter.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -61,14 +61,14 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaBattleCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "ArenaBattleCharacter.h" },
-		{ "ModuleRelativePath", "ArenaBattleCharacter.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleCharacter.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaBattleCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */" },
-		{ "ModuleRelativePath", "ArenaBattleCharacter.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleCharacter.h" },
 		{ "ToolTip", "Base look up/down rate, in deg/sec. Other scaling may affect final rate." },
 	};
 #endif
@@ -77,7 +77,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaBattleCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
-		{ "ModuleRelativePath", "ArenaBattleCharacter.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleCharacter.h" },
 		{ "ToolTip", "Base turn rate, in deg/sec. Other scaling may affect final turn rate." },
 	};
 #endif
@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 		{ "Category", "Camera" },
 		{ "Comment", "/** Follow camera */" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ArenaBattleCharacter.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleCharacter.h" },
 		{ "ToolTip", "Follow camera" },
 	};
 #endif
@@ -99,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 		{ "Category", "Camera" },
 		{ "Comment", "/** Camera boom positioning the camera behind the character */" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ArenaBattleCharacter.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleCharacter.h" },
 		{ "ToolTip", "Camera boom positioning the camera behind the character" },
 	};
 #endif
@@ -137,7 +137,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArenaBattleCharacter, 170354884);
+	IMPLEMENT_CLASS(AArenaBattleCharacter, 830419011);
 	template<> ARENABATTLE_API UClass* StaticClass<AArenaBattleCharacter>()
 	{
 		return AArenaBattleCharacter::StaticClass();

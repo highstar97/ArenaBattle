@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/BTTask_Attack.h"
+#include "ArenaBattle/Public/BTTask_Attack.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,7 +41,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_Attack() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTTask_Attack_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "BTTask_Attack.h" },
-		{ "ModuleRelativePath", "BTTask_Attack.h" },
+		{ "ModuleRelativePath", "Public/BTTask_Attack.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UBTTask_Attack_Statics::StaticCppClassTypeInfo = {
@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_Attack() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTTask_Attack, 924331506);
+	IMPLEMENT_CLASS(UBTTask_Attack, 2353801496);
 	template<> ARENABATTLE_API UClass* StaticClass<UBTTask_Attack>()
 	{
 		return UBTTask_Attack::StaticClass();

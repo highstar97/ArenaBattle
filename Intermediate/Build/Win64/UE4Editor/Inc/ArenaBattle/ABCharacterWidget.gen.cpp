@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/ABCharacterWidget.h"
+#include "ArenaBattle/Public/ABCharacterWidget.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -47,13 +47,13 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterWidget() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABCharacterWidget_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "ABCharacterWidget.h" },
-		{ "ModuleRelativePath", "ABCharacterWidget.h" },
+		{ "ModuleRelativePath", "Public/ABCharacterWidget.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABCharacterWidget_Statics::NewProp_HPProgressBar_MetaData[] = {
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ABCharacterWidget.h" },
+		{ "ModuleRelativePath", "Public/ABCharacterWidget.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UABCharacterWidget_Statics::NewProp_HPProgressBar = { "HPProgressBar", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABCharacterWidget, HPProgressBar), Z_Construct_UClass_UProgressBar_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UABCharacterWidget_Statics::NewProp_HPProgressBar_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UABCharacterWidget_Statics::NewProp_HPProgressBar_MetaData)) };
@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABCharacterWidget, 83643448);
+	IMPLEMENT_CLASS(UABCharacterWidget, 510292261);
 	template<> ARENABATTLE_API UClass* StaticClass<UABCharacterWidget>()
 	{
 		return UABCharacterWidget::StaticClass();

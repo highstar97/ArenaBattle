@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/ABAnimInstance.h"
+#include "ArenaBattle/Public/ABAnimInstance.h"
 #include "Engine/Classes/Components/SkeletalMeshComponent.h"
 #ifdef _MSC_VER
 #pragma warning (push)
@@ -44,7 +44,7 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UABAnimInstance_AnimNotify_AttackHitCheck_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "ABAnimInstance.h" },
+		{ "ModuleRelativePath", "Public/ABAnimInstance.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UABAnimInstance_AnimNotify_AttackHitCheck_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UABAnimInstance, nullptr, "AnimNotify_AttackHitCheck", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UABAnimInstance_AnimNotify_AttackHitCheck_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UABAnimInstance_AnimNotify_AttackHitCheck_Statics::Function_MetaDataParams)) };
@@ -95,20 +95,20 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ArenaBattle,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UABAnimInstance_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UABAnimInstance_AnimNotify_AttackHitCheck, "AnimNotify_AttackHitCheck" }, // 2274510635
+		{ &Z_Construct_UFunction_UABAnimInstance_AnimNotify_AttackHitCheck, "AnimNotify_AttackHitCheck" }, // 4246878944
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABAnimInstance_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "AnimInstance" },
 		{ "IncludePath", "ABAnimInstance.h" },
-		{ "ModuleRelativePath", "ABAnimInstance.h" },
+		{ "ModuleRelativePath", "Public/ABAnimInstance.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABAnimInstance_Statics::NewProp_IsDead_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Pawn" },
-		{ "ModuleRelativePath", "ABAnimInstance.h" },
+		{ "ModuleRelativePath", "Public/ABAnimInstance.h" },
 	};
 #endif
 	void Z_Construct_UClass_UABAnimInstance_Statics::NewProp_IsDead_SetBit(void* Obj)
@@ -120,7 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABAnimInstance_Statics::NewProp_AttackMontage_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Attack" },
-		{ "ModuleRelativePath", "ABAnimInstance.h" },
+		{ "ModuleRelativePath", "Public/ABAnimInstance.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UABAnimInstance_Statics::NewProp_AttackMontage = { "AttackMontage", nullptr, (EPropertyFlags)0x0040000000030015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABAnimInstance, AttackMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UABAnimInstance_Statics::NewProp_AttackMontage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UABAnimInstance_Statics::NewProp_AttackMontage_MetaData)) };
@@ -128,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABAnimInstance_Statics::NewProp_IsInAir_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Pawn" },
-		{ "ModuleRelativePath", "ABAnimInstance.h" },
+		{ "ModuleRelativePath", "Public/ABAnimInstance.h" },
 	};
 #endif
 	void Z_Construct_UClass_UABAnimInstance_Statics::NewProp_IsInAir_SetBit(void* Obj)
@@ -140,7 +140,7 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABAnimInstance_Statics::NewProp_CurrentPawnSpeed_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Pawn" },
-		{ "ModuleRelativePath", "ABAnimInstance.h" },
+		{ "ModuleRelativePath", "Public/ABAnimInstance.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UABAnimInstance_Statics::NewProp_CurrentPawnSpeed = { "CurrentPawnSpeed", nullptr, (EPropertyFlags)0x0040000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABAnimInstance, CurrentPawnSpeed), METADATA_PARAMS(Z_Construct_UClass_UABAnimInstance_Statics::NewProp_CurrentPawnSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UABAnimInstance_Statics::NewProp_CurrentPawnSpeed_MetaData)) };
@@ -177,7 +177,7 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABAnimInstance, 2513143113);
+	IMPLEMENT_CLASS(UABAnimInstance, 3806921778);
 	template<> ARENABATTLE_API UClass* StaticClass<UABAnimInstance>()
 	{
 		return UABAnimInstance::StaticClass();

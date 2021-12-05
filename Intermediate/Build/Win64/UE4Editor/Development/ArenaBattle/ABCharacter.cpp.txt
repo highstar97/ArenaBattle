@@ -1,6 +1,6 @@
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Definitions.ArenaBattle.h
-C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABCharacter.h
-C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ArenaBattle.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABCharacter.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ArenaBattle.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\EngineMinimal.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
@@ -187,11 +187,11 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacter.generated.h
-C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABAnimInstance.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABAnimInstance.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABAnimInstance.generated.h
-C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABWeapon.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABWeapon.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABWeapon.generated.h
-C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABCharacterStatComponent.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABCharacterStatComponent.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacterStatComponent.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/WidgetComponent.h
@@ -311,9 +311,9 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
-C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABCharacterWidget.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABCharacterWidget.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacterWidget.generated.h
-C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ABAIController.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABAIController.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\AIController.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavAreas/NavArea.h

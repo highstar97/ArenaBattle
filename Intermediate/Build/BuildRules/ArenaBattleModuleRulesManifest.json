@@ -1,6 +1,7 @@
 {
 	"SourceFiles": [
 		"C:\\Users\\pgt01\\Coding\\Unreal\\ArenaBattle\\Source\\ArenaBattle\\ArenaBattle.Build.cs",
+		"C:\\Users\\pgt01\\Coding\\Unreal\\ArenaBattle\\Source\\ArenaBattleSetting\\ArenaBattleSetting.Build.cs",
 		"C:\\Users\\pgt01\\Coding\\Unreal\\ArenaBattle\\Source\\ArenaBattle.Target.cs",
 		"C:\\Users\\pgt01\\Coding\\Unreal\\ArenaBattle\\Source\\ArenaBattleEditor.Target.cs"
 	],

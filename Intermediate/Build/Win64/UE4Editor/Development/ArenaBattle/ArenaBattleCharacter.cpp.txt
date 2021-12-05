@@ -1,5 +1,5 @@
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Definitions.ArenaBattle.h
-C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\ArenaBattleCharacter.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ArenaBattleCharacter.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
