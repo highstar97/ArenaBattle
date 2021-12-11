@@ -57,7 +57,6 @@ void AABPawn::Tick(float DeltaTime)
 void AABPawn::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
-	ABLOG_S(Warning);
 }
 
 void AABPawn::PossessedBy(AController* NewController)
