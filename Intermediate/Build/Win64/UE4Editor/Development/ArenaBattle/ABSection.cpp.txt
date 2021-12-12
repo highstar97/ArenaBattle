@@ -191,3 +191,7 @@ C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABCharacter.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacter.generated.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABItemBox.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABItemBox.generated.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABPlayerController.generated.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABGameMode.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABGameMode.generated.h

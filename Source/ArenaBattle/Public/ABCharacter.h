@@ -16,6 +16,7 @@ public:
 
 	void SetCharacterState(ECharacterState NewState);
 	ECharacterState GetCharacterState() const;
+	int32 GetExp() const;
 
 protected:
 	virtual void BeginPlay() override;

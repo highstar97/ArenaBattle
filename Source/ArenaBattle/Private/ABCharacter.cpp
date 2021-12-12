@@ -9,6 +9,8 @@
 #include "ABCharacterSetting.h"
 #include "ABGameInstance.h"
 #include "ABPlayerController.h"
+#include "ABPlayerState.h"
+#include "ABHUDWidget.h"
 
 #define MAX_COMBO 4;
 
@@ -86,6 +88,12 @@ void AABCharacter::SetCharacterState(ECharacterState NewState)
 		if (bIsPlayer)
 		{
 			DisableInput(ABPlayerController);
+
+			ABPlayerController->GetHUDWidget()->BindCharacterStat(CharacterStat);
+
+			auto ABPlayerState = Cast<AABPlayerState>(GetPlayerState());
+			ABCHECK(nullptr != ABPlayerState);
+			CharacterStat->SetNewLevel(ABPlayerState->GetCharacterLevel());
 		}
 		SetActorHiddenInGame(true);
 		HPBarWidget->SetHiddenInGame(true);
@@ -155,6 +163,11 @@ void AABCharacter::SetCharacterState(ECharacterState NewState)
 ECharacterState AABCharacter::GetCharacterState() const
 {
 	return CurrentState;
+}
+
+int32 AABCharacter::GetExp() const
+{
+	return CharacterStat->GetDropExp();
 }
 
 void AABCharacter::BeginPlay()
@@ -311,6 +324,15 @@ float AABCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& Da
 	ABLOG(Warning, TEXT("Actor : %s took Damge : %f"), *GetName(), FinalDamage);
 
 	CharacterStat->SetDamage(FinalDamage);
+	if (CurrentState == ECharacterState::DEAD)
+	{
+		if (EventInstigator->IsPlayerController())
+		{
+			auto instigator = Cast<AABPlayerController>(EventInstigator);
+			ABCHECK(nullptr != instigator, 0.0f);
+			instigator->NPCKill(this);
+		}
+	}
 	return FinalDamage;
 }
 
