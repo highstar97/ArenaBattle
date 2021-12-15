@@ -15,7 +15,6 @@ UABCharacterStatComponent::UABCharacterStatComponent()
 void UABCharacterStatComponent::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 void UABCharacterStatComponent::InitializeComponent()

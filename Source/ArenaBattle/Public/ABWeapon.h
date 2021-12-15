@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "ArenaBattle.h"
@@ -14,6 +12,10 @@ class ARENABATTLE_API AABWeapon : public AActor
 public:
 	AABWeapon();
 
+	float GetAttackRange() const;
+	float GetAttackDamage() const;
+	float GetAttackModifier() const;
+
 protected:
 	virtual void BeginPlay() override;
 
@@ -23,4 +25,26 @@ public:
 public:
 	UPROPERTY(VisibleAnywhere, Category = Weapon)
 	USkeletalMeshComponent* Weapon;
+
+protected:
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Attack")
+	float AttackRange;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Attack")
+	float AttackDamageMin;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Attack")
+	float AttackDamageMax;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Attack")
+	float AttackModifierMin;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Attack")
+	float AttackModifierMax;
+
+	UPROPERTY(BlueprintReadOnly, Transient, VisibleAnywhere, Category = "Attack")
+	float AttackDamage;
+
+	UPROPERTY(BlueprintReadOnly, Transient, VisibleInstanceOnly, Category = "Attack")
+	float AttackModifier;
 };
