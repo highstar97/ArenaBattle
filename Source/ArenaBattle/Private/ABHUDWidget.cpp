@@ -56,4 +56,5 @@ void UABHUDWidget::UpdatePlayerState()
 	PlayerName->SetText(FText::FromString(CurrentPlayerState->GetPlayerName()));
 	PlayerLevel->SetText(FText::AsNumber(CurrentPlayerState->GetCharacterLevel()));
 	CurrentScore->SetText(FText::AsNumber(CurrentPlayerState->GetGameScore()));
+	HighScore->SetText(FText::AsNumber(CurrentPlayerState->GetGameHighScore()));
 }

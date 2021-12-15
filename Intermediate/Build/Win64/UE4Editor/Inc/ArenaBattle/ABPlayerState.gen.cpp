@@ -32,6 +32,10 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerState() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameHighScore_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_GameHighScore;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Exp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Exp;
@@ -60,6 +64,12 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerState() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameHighScore_MetaData[] = {
+		{ "ModuleRelativePath", "Public/ABPlayerState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameHighScore = { "GameHighScore", nullptr, (EPropertyFlags)0x0020080000002000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABPlayerState, GameHighScore), METADATA_PARAMS(Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameHighScore_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameHighScore_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPlayerState_Statics::NewProp_Exp_MetaData[] = {
 		{ "ModuleRelativePath", "Public/ABPlayerState.h" },
 	};
@@ -78,6 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerState() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameScore = { "GameScore", nullptr, (EPropertyFlags)0x0020080000002000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABPlayerState, GameScore), METADATA_PARAMS(Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameScore_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameScore_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AABPlayerState_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameHighScore,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABPlayerState_Statics::NewProp_Exp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABPlayerState_Statics::NewProp_CharacterLevel,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameScore,
@@ -109,7 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABPlayerState, 2809778238);
+	IMPLEMENT_CLASS(AABPlayerState, 1073659346);
 	template<> ARENABATTLE_API UClass* StaticClass<AABPlayerState>()
 	{
 		return AABPlayerState::StaticClass();
