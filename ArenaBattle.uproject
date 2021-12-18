@@ -23,5 +23,11 @@
 				"ArenaBattleSetting"
 			]
 		}
+	],
+	"Plugins": [
+		{
+			"Name": "UdpMessaging",
+			"Enabled": false
+		}
 	]
 }
