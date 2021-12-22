@@ -997,14 +997,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.pdb",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -4613,10 +4605,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -5020,10 +5008,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin",
 			"Type": "UFS"
 		},
 		{

@@ -312,3 +312,11 @@ C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABCharacter.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacter.generated.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABCharacterStatComponent.h
 C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacterStatComponent.generated.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABGameplayWidget.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABGameplayWidget.generated.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABGameplayResultWidget.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABGameplayResultWidget.generated.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Source\ArenaBattle\Public\ABGameState.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameStateBase.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameStateBase.generated.h
+C:\Users\pgt01\Coding\Unreal\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABGameState.generated.h
